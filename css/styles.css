@@ -1,0 +1,169 @@
+.landdry-wrapper,
+.landdry-wrapper *,
+.landdry-wrapper *::before,
+.landdry-wrapper *::after {outline:none; box-sizing:border-box; font-family:MetronicPro, sans-serif; font-weight:normal; letter-spacing:0}
+
+.landdry-wrapper {background:#FFFFFF; position:relative; overflow:hidden; width:100%; padding:0 0 120px 0}
+
+@media (max-width:1219px) {
+    .landdry-wrapper {padding:0 0 100px 0}
+}
+
+.landdry-container {margin:0 auto; max-width:1220px}
+
+@media (max-width:1219px) {
+    .landdry-container {padding:0 10px}
+}
+
+.landdry-welcome {position:relative; padding:106px 0 274px 0; background:url(../img/landdry-welcome-bg.jpg) no-repeat center; background-size:cover}
+.landdry-welcome::before {content:""; position:absolute; left:0; top:0; bottom:0; right:0; background:linear-gradient(90deg, rgba(0, 31, 57, 0.8) 0%, rgba(0, 0, 0, 0) 60.36%)}
+.landdry-welcome .landdry-container {position:relative}
+.landdry-welcome-logo {width:127px}
+.landdry-welcome-logo img {display:block; width:100%}
+.landdry-welcome-title {margin:36px 0 0 0; font-weight:500; font-size:48px; line-height:58px; color:#FFFFFF}
+.landdry-welcome-text {margin:12px 0 0 0; max-width:390px; font-size:24px; line-height:29px; color:#FFFFFF}
+.landdry-welcome-link {display:flex; margin:36px 0 0 0}
+.landdry-welcome-link a {display:block; padding:15px 20px; font-size:18px; line-height:18px; color:#003B61; text-decoration:none; background:#FFFFFF; border-radius:5px; transition:background 0.2s, color 0.2s}
+.landdry-welcome-link a:hover {background:#003B61; color:#FFFFFF}
+
+@media (max-width:1219px) {
+    .landdry-welcome {padding:40px 20px 336px 20px; background:url(../img/landdry-welcome-bg-mobile.jpg) no-repeat center bottom; background-size:cover}
+    .landdry-welcome::before {bottom:auto; height:360px; background:linear-gradient(180deg, #191722 -9.36%, rgba(25, 23, 34, 0.76) 49.46%, rgba(25, 23, 34, 0) 100%)}
+    .landdry-welcome-title {margin:30px 0 0 0; font-size:36px; line-height:43px; max-width:204px}
+    .landdry-welcome-text {margin:8px 0 0 0; font-size:18px; line-height:25px; max-width:290px}
+    .landdry-welcome-link {margin:30px 0 0 0}
+    .landdry-welcome-link a {padding:15px 0; width:100%; text-align:center}
+}
+
+.landdry-prefs {padding:120px 0; text-align:center}
+.landdry-prefs-title {font-weight:500; font-size:36px; line-height:47px; color:#000000}
+.landdry-prefs-list {margin:20px -10px 0 -10px; display:flex; flex-wrap:wrap}
+.landdry-prefs-item {min-width:33.33%; max-width:33.33%; padding:20px 30px 0 30px}
+.landdry-prefs-item-icon {width:120px; height:120px; display:flex; align-items:center; justify-content:center; background:#016396; border-radius:50%; margin:0 auto}
+.landdry-prefs-item-title {margin:20px 0 0 0; font-weight:500; font-size:24px; line-height:36px; color:#000000}
+.landdry-prefs-item-text {margin:12px 0 0 0; font-size:18px; line-height:27px; color:#000000}
+
+@media (max-width:1219px) {
+    .landdry-prefs {padding:80px 0}
+    .landdry-prefs-title {font-size:24px; line-height:31px}
+    .landdry-prefs-list {margin:40px 0 0 0; display:block}
+    .landdry-prefs-item {min-width:0; max-width:none; padding:0; margin:40px 0 0 0}
+    .landdry-prefs-item-title {font-size:20px; line-height:30px}
+    .landdry-prefs-item-text {margin:10px 0 0 0; font-size:16px; line-height:24px}
+}
+
+.landdry-techs {padding:80px 0; background:rgba(117, 172, 200, 0.2)}
+.landdry-techs-title {font-weight:500; font-size:36px; line-height:47px; color:#000000; text-align:center}
+.landdry-techs-list {margin:40px 0 0 0}
+.landdry-techs-list-inner,
+.landdry-techs-list-inner.swiper-wrapper {display:block}
+.landdry-techs-list-item {margin:20px 0 0 0}
+.landdry-techs-list-item-inner {display:flex; background:#002B46; border-radius:8px}
+.landdry-techs-list-item-content {min-width:50%; max-width:50%; padding:36px; color:#FFFFFF; display:flex; flex-direction:column; justify-content:center; min-height:360px}
+.landdry-techs-list-item:nth-child(even) .landdry-techs-list-item-content {order:1}
+.landdry-techs-list-item-title {font-weight:500; font-size:30px; line-height:45px}
+.landdry-techs-list-item-text {margin:20px 0 0 0; font-size:18px; line-height:27px}
+.landdry-techs-list-item-notice {margin:20px 0 0 0; font-size:18px; line-height:27px; color:rgba(255, 255, 255, 0.5)}
+.landdry-techs-list-item-photo {min-width:50%; max-width:50%; background:no-repeat center; background-size:cover; border-radius:0 8px 8px 0}
+.landdry-techs-list-item:nth-child(even) .landdry-techs-list-item-photo {border-radius:8px 0 0 8px}
+
+@media (max-width:1219px) {
+    .landdry-techs {padding:40px 0}
+    .landdry-techs-title {font-size:24px; line-height:31px}
+    .landdry-techs-list,
+    .landdry-techs-list.swiper {margin:20px -10px 0 -10px}
+    .landdry-techs-list-inner,
+    .landdry-techs-list-inner.swiper-wrapper {display:flex; align-items:stretch}
+    .landdry-techs-list-item,
+    .landdry-techs-list-item.swiper-slide {margin:0; display:flex; min-width:310px; max-width:310px; height:auto}
+    .landdry-techs-list-item:first-child,
+    .landdry-techs-list-item.swiper-slide:first-child {min-width:315px; max-width:315px}
+    .landdry-techs-list-item:last-child,
+    .landdry-techs-list-item.swiper-slide:last-child {min-width:315px; max-width:315px}
+    .landdry-techs-list-item-inner {margin:0 5px; display:flex; width:calc(100% - 10px); flex-direction:column}
+    .landdry-techs-list-item:first-child .landdry-techs-list-item-inner {margin-left:10px; width:calc(100% - 15px)}
+    .landdry-techs-list-item:last-child .landdry-techs-list-item-inner {margin-right:10px; width:calc(100% - 15px)}
+    .landdry-techs-list-item-content {min-width:100%; max-width:100%; height:100%; padding:20px; min-height:0; justify-content:flex-start}
+    .landdry-techs-list-item:nth-child(even) .landdry-techs-list-item-content {order:0}
+    .landdry-techs-list-item-title {font-size:20px; line-height:30px}
+    .landdry-techs-list-item-text {font-size:16px; line-height:24px}
+    .landdry-techs-list-item-notice {font-size:16px; line-height:24px}
+    .landdry-techs-list-item-photo {min-width:100%; max-width:100%; min-height:200px; border-radius:0 0 8px 8px}
+    .landdry-techs-list-item:nth-child(even) .landdry-techs-list-item-photo {border-radius:0 0 8px 8px}
+    .landdry-techs-list.swiper-horizontal>.swiper-scrollbar,
+    .landdry-techs-list .swiper-scrollbar.swiper-scrollbar-horizontal {position:relative; left:auto; bottom:auto; right:auto; margin:10px 10px 0 10px; width:auto; height:4px; border-radius:2px; background:#FFFFFF}
+    .landdry-techs-list .swiper-scrollbar-drag {background:#002B46; border-radius:2px}
+}
+
+.landdry-installation {margin:120px 0 0 0}
+.landdry-installation-title {font-weight:500; font-size:36px; line-height:47px; color:#000000; text-align:center}
+.landdry-installation-anonce {margin:20px auto 0 auto; max-width:810px; font-size:18px; line-height:27px; text-align:center; color:#000000}
+.landdry-installation-anonce a {color:#0180C9; text-decoration:none; transition:color 0.2s}
+.landdry-installation-anonce a:hover {color:#003B61}
+.landdry-installation-list,
+.landdry-installation-list.swiper {margin:40px -10px 0 -10px; width:auto}
+.landdry-installation-list-inner {display:flex}
+.landdry-installation-list-item,
+.landdry-installation-list-item.swiper-slide {padding:0 10px; min-width:25%; max-width:25%}
+.landdry-installation-list-item-photo img {display:block; width:100%; border-radius:8px}
+.landdry-installation-list-item-title {margin:20px 0 0 0; font-weight:bold; font-size:24px; line-height:36px; text-transform:uppercase; text-align:center; color:#000000}
+
+@media (max-width:1219px) {
+    .landdry-installation {margin:80px 0 0 0}
+    .landdry-installation-title {font-size:24px; line-height:31px}
+    .landdry-installation-anonce {font-size:16px; line-height:24px}
+    .landdry-installation-list,
+    .landdry-installation-list.swiper {margin:40px -10px 0 -10px}
+    .landdry-installation-list-inner,
+    .landdry-installation-list-inner.swiper-wrapper {display:flex}
+    .landdry-installation-list-item,
+    .landdry-installation-list-item.swiper-slide {margin:0; min-width:310px; max-width:310px; padding:0}
+    .landdry-installation-list-item:first-child,
+    .landdry-installation-list-item.swiper-slide:first-child {min-width:315px; max-width:315px}
+    .landdry-installation-list-item:last-child,
+    .landdry-installation-list-item.swiper-slide:last-child {min-width:315px; max-width:315px}
+    .landdry-installation-list-item-inner {margin:0 5px; width:calc(100% - 10px)}
+    .landdry-installation-list-item:first-child .landdry-installation-list-item-inner {margin-left:10px; width:calc(100% - 15px)}
+    .landdry-installation-list-item:last-child .landdry-installation-list-item-inner {margin-right:10px; width:calc(100% - 15px)}
+    .landdry-installation-list.swiper-horizontal>.swiper-scrollbar,
+    .landdry-installation-list .swiper-scrollbar.swiper-scrollbar-horizontal {position:relative; left:auto; bottom:auto; right:auto; margin:40px 10px 0 10px; width:auto; height:4px; border-radius:2px; background:#E3EEF4}
+    .landdry-installation-list .swiper-scrollbar-drag {background:#002B46; border-radius:2px}
+}
+
+.landdry-catalogue {margin:120px 0 0 0}
+.landdry-catalogue-logo {width:127px; margin:0 auto}
+.landdry-catalogue-logo img {display:block; width:100%}
+.landdry-catalogue-title {margin:40px 0 0 0; font-weight:500; font-size:36px; line-height:47px; color:#000000; text-align:center}
+.landdry-catalogue-list,
+.landdry-catalogue-list.swiper {margin:40px -10px 0 -10px; width:auto}
+.landdry-catalogue-list-inner {display:flex}
+.landdry-catalogue-list-item,
+.landdry-catalogue-list-item.swiper-slide {padding:0 10px; min-width:33.33%; max-width:33.33%}
+.landdry-catalogue-list-item-inner {display:block; background:#75ACC8; border-radius:12px; padding:40px; text-align:center; text-decoration:none; color:#FFFFFF}
+.landdry-catalogue-list-item-inner:hover {text-decoration:none; color:#FFFFFF}
+.landdry-catalogue-list-item-model {font-size:14px; line-height:21px}
+.landdry-catalogue-list-item-title {margin:10px 0 0 0; font-weight:500; font-size:18px; line-height:27px}
+.landdry-catalogue-list-item-info {font-weight:300; font-size:14px; line-height:21px; letter-spacing:0.03em}
+.landdry-catalogue-list-item-photo {margin:40px 0 0 0; display:flex; justify-content:center; height:317px; align-items:center}
+.landdry-catalogue-list-item-photo img {max-width:100%; max-height:100%}
+.landdry-catalogue-list-item-btn {margin:40px 0 0 0; display:flex; justify-content:center}
+.landdry-catalogue-list-item-btn span {display:block; padding:15px 30px; font-size:18px; line-height:18px; color:#003B61; background:#FFFFFF; border-radius:5px; transition:background 0.2s, color 0.2s}
+.landdry-catalogue-list-item-inner:hover .landdry-catalogue-list-item-btn span {background:#003B61; color:#FFFFFF}
+.landdry-catalogue-link {margin:40px 0 0 0; display:flex; justify-content:center}
+.landdry-catalogue-link a {display:block; padding:19px 23px; font-size:18px; line-height:18px; color:#003B61; text-decoration:none; border:1px solid #75ACC8; background:#FFFFFF; border-radius:5px; transition:background 0.2s, color 0.2s, border-color 0.2s}
+.landdry-catalogue-link a:hover {border-color:#003B61; background:#003B61; color:#FFFFFF}
+
+@media (max-width:1219px) {
+    .landdry-catalogue {margin:100px 0 0 0}
+    .landdry-catalogue-title {margin:20px 0 0 0; font-size:24px; line-height:31px}
+    .landdry-catalogue-list,
+    .landdry-catalogue-list.swiper {margin:40px 0 0 0}
+    .landdry-catalogue-list-item,
+    .landdry-catalogue-list-item.swiper-slide {padding:0; min-width:100%; max-width:100%}
+    .landdry-catalogue-list-item-inner {padding:20px}
+    .landdry-catalogue-list-item-photo {margin:20px 0 0 0; height:260px}
+    .landdry-catalogue-list-item-btn {margin:20px 0 0 0; display:block}
+    .landdry-catalogue-list-item-btn span {display:block; text-align:center; padding:15px 0}
+    .landdry-catalogue-link {display:block}
+    .landdry-catalogue-link a {padding:19px 0; display:block; text-align:center}
+}
